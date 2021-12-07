@@ -4,7 +4,7 @@ metadata:
   name: hello-pod
   labels:
     app: web
-spec:Q
+spec:
   containers:
     - name: web-ctr
       image: 2122609/rahulimages:dockerdemo
