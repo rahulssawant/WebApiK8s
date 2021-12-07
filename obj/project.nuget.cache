@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Hg4gNNGAYbdPXyH6ipFddGwl+35ahTX5T7i4xFuqma0OkPZxo1MLTwrYrCwJRj9v0w84hZqzZg1x//mZT6Yesg==",
+  "success": true,
+  "projectFilePath": "C:\\RahulWork\\IMPACT\\Kubernetes\\WebApiK8s\\WebApiK8s.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RahulS18\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512"
+  ],
+  "logs": []
+}
