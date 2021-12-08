@@ -1,16 +1,16 @@
 ﻿apiVersion: v1
 kind: Pod
 metadata:
-  name: hello-pod
+  name: hello-multi-pod
   labels:
     app: web
 spec:
   containers:
-    - name: web-ctr
+    - name: web-ctr-multi-one
       image: 2122609/rahulimages:dockerdemo
       ports:
         - containerPort: 8080
-    - name: web-ctr-test
+    - name: web-ctr-multi-two
       image: 2122609/rahulimages:dockerdemo
       ports:
         - containerPort: 8081
