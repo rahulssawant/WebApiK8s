@@ -1,0 +1,16 @@
+﻿apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-pod
+  labels:
+    app: web
+spec:
+  containers:
+    - name: web-ctr
+      image: 2122609/rahulimages:dockerdemo
+      ports:
+        - containerPort: 8080
+    - name: web-ctr-test
+      image: 2122609/rahulimages:dockerdemo
+      ports:
+        - containerPort: 8081
